@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 260" width="200" height="260">
+  <defs>
+    <pattern id="pin" width="7" height="7" patternUnits="userSpaceOnUse" patternTransform="rotate(8)">
+      <rect width="7" height="7" fill="#2b2f4d"/>
+      <rect width="1.2" height="7" fill="#5a6190"/>
+    </pattern>
+    <linearGradient id="shade" x1="0" x2="1">
+      <stop offset="0" stop-color="#000" stop-opacity=".25"/>
+      <stop offset=".5" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <g stroke="#15121c" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="108" cy="240" rx="70" ry="8" fill="#000" opacity=".25" stroke="none"/>
+    <!-- back arm (guard) -->
+    <polyline points="84,102 60,132 72,108" fill="none" stroke-width="20"/>
+    <polyline points="84,102 60,132 72,108" fill="none" stroke="url(#pin)" stroke-width="14"/>
+    <circle cx="73" cy="104" r="9" fill="#e9b48a"/>
+    <!-- legs -->
+    <path d="M84 146 L106 152 L82 200 L72 230 L54 230 L62 198 Z" fill="url(#pin)"/>
+    <path d="M98 152 L122 144 L146 186 L152 228 L134 230 L128 194 Z" fill="url(#pin)"/>
+    <!-- shoes with spats -->
+    <path d="M46 238 Q42 224 56 222 L74 224 Q80 232 74 238 Z" fill="#111"/>
+    <path d="M55 223 L73 225 L72 231 L56 230 Z" fill="#f2f0e8" stroke-width="2"/>
+    <path d="M130 238 L130 226 L152 224 Q170 226 170 238 Z" fill="#111"/>
+    <path d="M132 226 L152 225 L153 231 L132 232 Z" fill="#f2f0e8" stroke-width="2"/>
+    <!-- torso -->
+    <path d="M74 96 Q100 84 128 94 L134 150 Q102 162 76 152 Z" fill="url(#pin)"/>
+    <path d="M74 96 Q100 84 128 94 L134 150 Q102 162 76 152 Z" fill="url(#shade)" stroke="none"/>
+    <path d="M90 92 L101 122 L112 91 Z" fill="#f2f0e8"/>
+    <path d="M98 96 L104 96 L106 116 L101 124 L96 116 Z" fill="#c0282d" stroke-width="2"/>
+    <path d="M90 92 L96 128 M112 91 L106 128" fill="none" stroke-width="2.5"/>
+    <path d="M78 146 Q104 154 132 144" fill="none" stroke-width="2"/>
+    <!-- front arm (jab) -->
+    <polyline points="122,100 148,124 166,108" fill="none" stroke-width="20"/>
+    <polyline points="122,100 148,124 166,108" fill="none" stroke="url(#pin)" stroke-width="14"/>
+    <path d="M160 110 L166 102 L170 106 L164 114 Z" fill="#f2f0e8" stroke-width="2"/>
+    <circle cx="173" cy="104" r="10" fill="#e9b48a"/>
+    <path d="M170 98 L176 98 M169 104 L177 104" fill="none" stroke-width="1.5"/>
+    <!-- head -->
+    <path d="M82 60 Q80 88 98 95 Q118 95 121 70 Q121 52 102 50 Q84 50 82 60 Z" fill="#e9b48a"/>
+    <path d="M85 76 Q88 92 99 94 Q115 94 119 76 Q110 84 100 84 Q90 84 85 76 Z" fill="#7a5a4a" opacity=".45" stroke="none"/>
+    <path d="M92 64 L100 67 M106 67 L115 62" fill="none" stroke-width="3.5"/>
+    <circle cx="97" cy="70" r="1.8" fill="#15121c"/>
+    <circle cx="109" cy="70" r="1.8" fill="#15121c"/>
+    <path d="M103 71 L101 78 L105 78" fill="none" stroke-width="2"/>
+    <path d="M96 85 Q103 82 110 85" fill="none" stroke-width="2.5"/>
+    <path d="M82 64 Q78 68 83 72" fill="#e9b48a" stroke-width="2"/>
+    <!-- fedora -->
+    <ellipse cx="102" cy="56" rx="33" ry="7" transform="rotate(-8 102 56)" fill="#f2f0e8"/>
+    <path d="M84 55 Q82 30 102 27 Q122 28 121 50 Z" fill="#f2f0e8"/>
+    <path d="M102 30 Q98 38 104 44" fill="none" stroke-width="2"/>
+    <path d="M84 47 L121 42 L121 50 L84 55 Z" fill="#15121c"/>
+    <path d="M110 34 Q116 36 117 42" fill="none" stroke="#fff" stroke-width="2"/>
+  </g>
+</svg>
